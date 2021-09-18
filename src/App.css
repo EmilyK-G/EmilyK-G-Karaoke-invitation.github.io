@@ -1,4 +1,12 @@
 .App {
   text-align: center;
-  
+  background-color: black;
+  color: whitesmoke;
+}
+.karaoke_bgr {
+  background: url("../src/img/karaoke_background.png");
+  background-size: cover;
+}
+h1.test_h1 {
+  margin: 0;   
 }
