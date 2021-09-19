@@ -1,7 +1,8 @@
 import React from 'react';
-function Event(){
-    return <div>
-        <h1>Karaoke Night</h1>
+import './Event.css';
+function Event(props){
+    return <div className="event-div d-flex flex-column align-items-center justify-content-center event-bgr">
+        <h1 className="event-name ">{props.name}</h1>
     </div>
 }
 export default Event

@@ -2,6 +2,7 @@
   text-align: center;
   background-color: black;
   color: whitesmoke;
+  font-family: 'Cinzel', serif;
 }
 .karaoke_bgr {
   background: url("../src/img/karaoke_background.png");

@@ -1,0 +1,20 @@
+.msg-div-index {
+    z-index: auto;
+}
+.msg-margin {
+    position: relative;
+    margin-top: -10px;
+    margin-bottom: -22px;
+    z-index: 100;
+}
+.msg-img-index {
+    position: relative;
+    z-index: 1;
+}
+.msg-lbl {
+    font-family: 'Birthstone Bounce', cursive;
+    font-size: 2.9rem;
+}
+.msg-div-height {
+    height: 400px;
+}

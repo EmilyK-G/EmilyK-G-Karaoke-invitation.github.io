@@ -1,0 +1,12 @@
+.event-name {
+    font-family: 'Birthstone Bounce', cursive;
+    font-size: 4rem;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+.event-div {
+    height: 700px;
+}
+.event-bgr {
+    background: rgba(202, 181, 102, 0.35);
+}
