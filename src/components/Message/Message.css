@@ -18,3 +18,10 @@
 .msg-div-height {
     height: 400px;
 }
+.msg-img-opacity {
+    opacity: 80%;
+}
+.msg-img-border {
+    border:none;
+    box-shadow: 5px 1px 20px 0px;
+}

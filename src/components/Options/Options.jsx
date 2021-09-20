@@ -1,11 +1,22 @@
-import React from 'react';
+import React, {useState} from 'react';
+import ConfirmationModal from './Modal/Modal'
+import './Options.css';
 
-function Options() {
+function Options(props) {
+    const [modalShow, setModalShow] = useState(false);
+
+    function handleSuccessClick() {
+
+    }
     return (
-        <div className="d-grid gap-2">
-            <button className="btn btn-success">I'll Go, sounds fun!</button>
-            <a tabindex="0" className="btn btn-danger" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Dismissible popover" data-bs-content="And here's some amazing content. It's very engaging. Right?">Nah, I'll sing in the shower</a>
-            <button className="btn btn-danger">Nah, I'll sing in the shower</button>
+        <div className="d-grid gap-2 opt-margin">
+            <h3>This {props.date}</h3>
+            <button type="button" className="btn btn-success" onClick={() => setModalShow(true)}>I'll Go, sounds fun!</button>
+            <ConfirmationModal
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+            />
+            <button type="button" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Are you serious-.-" className="btn btn-danger">Nah, I'll sing in the shower</button>
         </div>
     )
 }
