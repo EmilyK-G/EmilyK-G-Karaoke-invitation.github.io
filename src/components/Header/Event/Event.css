@@ -2,13 +2,16 @@
     font-family: 'Birthstone Bounce', cursive;
     font-size: 4rem;
     width: 100%;
-    background: rgba(0, 0, 0, 0.4);
-    text-shadow: 2px 4px 6px #322101;
+    background: linear-gradient(rgba(255, 255, 255, 0.54), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.64), rgba(255, 255, 255, 0.54));
+    text-shadow: 2px 4px 6px #ffffff;
     box-shadow: 5px 1px 70px 10px
 }
 .event-div {
     height: 700px;
 }
 .event-bgr {
-    background-image: linear-gradient(rgba(202, 180, 102, 0.1), rgb(202, 180, 102), rgba(202, 180, 102, 0.1));
+    background-image: linear-gradient(rgba(107, 102, 83, 0.45), rgb(202, 180, 102), rgba(107, 102, 83, 0));
+}
+.event-img {
+    margin-bottom: -130px;
 }
