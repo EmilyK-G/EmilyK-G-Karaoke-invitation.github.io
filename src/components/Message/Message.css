@@ -23,8 +23,9 @@
 }
 .msg-img-border {
     border:none;
-    box-shadow: 5px 1px 20px 0px;
+    box-shadow: 5px 1px 20px 0px rgb(131 75 0);
 }
+
 .inline-photo {
     border-radius: .25em;
     margin: 2em auto;
